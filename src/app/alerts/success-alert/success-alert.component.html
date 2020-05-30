@@ -1,0 +1,4 @@
+<p>success-alert works!</p>
+<input type="text" [(ngModel)] = "username">
+{{username}}
+<button class="btn btn-primary" [disabled]="isDisabled()" (click)="clearUsername($event)">Clear username</button>
